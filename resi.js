@@ -11,7 +11,7 @@ let link = window.location.href,
     .sort();
 
 if (pageURL[1]) {
-  let token = "Yourtoken", // paste api key here
+  let token = "9a029937f344ae394d47fe84f83574a4c85b3a6f9885243fdf81080d6d99cc8f", // paste api key here
     courier = pageURL[0].split(/[=]+/)[1],
     awb = pageURL[1].split(/[=]+/)[1],
     urlApi = `https://api.binderbyte.com/v1/track?api_key=${token}&courier=${courier}&awb=${awb}`;
